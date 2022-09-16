@@ -11,5 +11,6 @@ export class DialogComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  freshnessList = ["Brand New", "Second Hand", "Refurbished"]
 
 }

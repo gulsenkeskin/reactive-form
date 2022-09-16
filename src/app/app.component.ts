@@ -10,7 +10,7 @@ import { DialogComponent } from './dialog/dialog.component';
 export class AppComponent {
   title = 'reactive-form';
 
-  constructor(public dialog: MatDialog) { }
+  constructor(private dialog: MatDialog) { }
 
   openDialog() {
     this.dialog.open(DialogComponent, {
