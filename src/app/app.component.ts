@@ -27,7 +27,12 @@ export class AppComponent implements OnInit {
   openDialog() {
     this.dialog.open(DialogComponent, {
       width: "30%"
-    });
+    }).afterClosed().subscribe(val => {
+      //close da gönderdğimiz değer buraya düşer
+      if (val === "save") {
+        this.getAllProducts();
+      }
+    })
   }
 
   getAllProducts() {
@@ -51,6 +56,17 @@ export class AppComponent implements OnInit {
     if (this.dataSource.paginator) {
       this.dataSource.paginator.firstPage();
     }
+  }
+
+  editProduct(row: any) {
+    this.dialog.open(DialogComponent, {
+      width: '30%',
+      data: row
+    }).afterClosed().subscribe(val => {
+      if (val === 'update') {
+        this.getAllProducts();
+      }
+    })
   }
 
 
