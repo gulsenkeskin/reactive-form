@@ -18,11 +18,11 @@
 <div class="container">
   <div style="margin-top: 10px">
     <mat-form-field appearance="standard">
-      <mat-label>Filter</mat-label>
+      <mat-label>Search Product Name</mat-label>
       <input
         matInput
         (keyup)="applyFilter($event)"
-        placeholder="Ex. Mia"
+        placeholder="Karpuz"
         #input
       />
     </mat-form-field>
@@ -74,7 +74,11 @@
             <button mat-icon-button color="primary" (click)="editProduct(row)">
               <mat-icon>edit</mat-icon>
             </button>
-            <button mat-icon-button color="warn">
+            <button
+              mat-icon-button
+              color="warn"
+              (click)="deleteProduct(row.id)"
+            >
               <mat-icon>delete</mat-icon>
             </button>
           </td>

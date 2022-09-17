@@ -1,29 +1,11 @@
 {
   "productList": [
     {
-      "productName": "3244432423",
-      "category": "Vegetables",
-      "freshness": "Refurbished",
-      "price": 42332,
-      "comment": "242",
-      "date": "2022-09-18T21:00:00.000Z",
-      "id": 1
-    },
-    {
-      "productName": "fsdfsf",
-      "category": "Vegetables",
-      "freshness": "Brand New",
-      "price": 233,
-      "comment": "12312312",
-      "date": "2022-09-19T21:00:00.000Z",
-      "id": 2
-    },
-    {
       "productName": "Mango",
       "category": "Fruits",
       "freshness": "Brand New",
       "price": 15,
-      "comment": "dfdsf",
+      "comment": "1 piece",
       "date": "2022-09-16T21:00:00.000Z",
       "id": 3
     },
@@ -32,17 +14,17 @@
       "category": "Fruits",
       "freshness": "Brand New",
       "price": 5,
-      "comment": "ddd",
+      "comment": "10 kg",
       "date": "2022-09-16T21:00:00.000Z",
       "id": 4
     },
     {
-      "productName": "423423",
-      "category": "Electronic",
+      "productName": "Limon",
+      "category": "Vegetables",
       "freshness": "Brand New",
-      "price": 4234234,
-      "comment": "23423",
-      "date": "2022-09-27T21:00:00.000Z",
+      "price": 20,
+      "comment": "1 kg",
+      "date": "2022-09-16T21:00:00.000Z",
       "id": 5
     }
   ],
