@@ -26,6 +26,33 @@
       "comment": "1 kg",
       "date": "2022-09-16T21:00:00.000Z",
       "id": 5
+    },
+    {
+      "productName": "Telefon",
+      "category": "Electronic",
+      "freshness": "Brand New",
+      "price": 10000,
+      "comment": "1",
+      "date": "2022-09-16T21:00:00.000Z",
+      "id": 6
+    },
+    {
+      "productName": "Bilgisayar",
+      "category": "Electronic",
+      "freshness": "Brand New",
+      "price": 70000,
+      "comment": "1",
+      "date": "2022-09-16T21:00:00.000Z",
+      "id": 7
+    },
+    {
+      "productName": "Kavun",
+      "category": "Vegetables",
+      "freshness": "Brand New",
+      "price": 1000,
+      "comment": "1",
+      "date": "2022-09-16T21:00:00.000Z",
+      "id": 8
     }
   ],
   "comments": [
